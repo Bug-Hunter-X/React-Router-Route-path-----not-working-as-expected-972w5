@@ -1,0 +1,3 @@
+This repository demonstrates a common issue with React Router's catch-all route ("*"). The problem occurs when the catch-all route is placed above other specific routes.  This causes the catch-all route to always match, regardless of other routes' matches.
+
+The solution provided shows how to correctly position the catch-all route at the end of the Routes component, ensuring it only matches when no other routes are matched.  This is crucial for proper navigation and handling of 404 scenarios.
